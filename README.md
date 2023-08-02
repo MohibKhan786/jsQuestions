@@ -277,6 +277,154 @@
   pi=3;
 
   ```
+### 2) 
+  ```
+  function foo(){
+    var n=6;
+    console.log(n);
+  }
+  var n=5;
+  console.log(n);
+  foo();
+
+  ```
+### 3)
+```
+ function foo(n) {
+    if (n == 6) {
+        let num = 2;
+    }
+    console.log(num);
+ }
+
+ var n = 6;
+ console.log(n);
+ foo(6);
+```
+
+### 4)
+```
+function foo(n) {
+    if (n === 6) {
+        var num = 2;
+    }
+    console.log(num);
+}
+var n = 6;
+console.log(n);
+foo(n);
+
+```
+### 5)
+```
+for(var i=0;i<3;i++){
+  console.log(i)
+ }
+ console.log("i outside the loop: ", i);
+
+ for(let j=0;j<3;j++){
+  console.log(j);
+ }
+ console.log("j oustide the loop :", j);
+```
+
+### 6)
+```
+x = 2
+var y = x + 1
+console.log(y)
+var x;
+```
+
+### 7)
+```
+var y = x + 1
+console.log(x) 
+console.log(y) 
+var x = 2;
+```
+### 8)
+```
+for (let i = 0; i < 5; i++) {
+  setTimeout(() => console.log(i))
+}
+```
+
+### 9)
+```
+let { g, ...h } = { a: 1, g: 2 }
+console.log(g, h) 
+```
+
+### 10)
+```
+const fruit = 'apple'
+{
+  const fruit = 'orange'
+  console.log(fruit) 
+}
+console.log(fruit) 
+```
+    
+## Group-B
+
+### 11) Which of the following is true about const?
+
+     a) It creates a read-only reference to a value.
+    
+     b) It creates an immutable object.
+     
+     c) It can't be used in strict mode.
+     
+     d) It allows reassignment just like let.
+
+### 12) When should you use const over let? 
+
+     a) When the variable needs to be reassigned.
+     
+     b) When the variable's value will never change.
+     
+     c) When you want to prevent variable hoisting.
+     
+     d) When you want to avoid using block scope.
+
+### 13) What is the value of a variable declared with const that is not initialised during declaration? 
+
+    A) null 
+    
+    B) undefined
+    
+    C) 0
+    
+    D) It throws a syntax error.
+
+### 14) Which type of variable declaration is recommended when you need to reassign the variable later? 
+
+    A) const 
+    
+    B) let
+    
+    C) var 
+    
+    D) All of them are equally suitable.
+
+### 15) Which of the following declarations is not valid in strict mode? 
+
+    A) var x = 10; 
+    
+    B) let x = 10;
+    
+    C) const x = 10; 
+    
+    D) All of them are valid.
+                
+
+
+
+
+
+
+    
 
 # Aasif Iqbal
 ## (Guess the output)
